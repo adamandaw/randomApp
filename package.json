@@ -1,0 +1,15 @@
+{
+  "name": "randomapp",
+  "version": "1.0.0",
+  "description": "une application  génère  un nombre aléatoire via un input",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start /B cmd /c \"lite-server\" & tsc -w"
+  },
+  "author": "Mohamed Ndaw",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
